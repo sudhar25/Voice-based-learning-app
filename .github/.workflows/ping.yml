@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Render API
-        run: |
-          curl -s -o /dev/null -w "%{http_code}" https://tamil-pronunciation-api.onrender.com/health
+       # run: |
+        #  curl -s -o /dev/null -w "%{http_code}" https://tamil-pronunciation-api.onrender.com/health
