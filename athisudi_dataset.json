@@ -1,0 +1,650 @@
+{
+  "athisudi": [
+    {
+      "id": 1,
+      "tamil": "அறஞ்செய விரும்பு", 
+      "transliteration": "Aran Seya Virumbu",
+      "meaning_en": "Intend to do right deeds",
+      "meaning_ta": "நீ தருமம் செய்ய ஆசைப்படு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385505/athisudi_single_file_tts/09710a9c-45f4-4de3-8d75-165b2d9dec17.mp3"
+    },
+    {
+      "id": 2,
+      "tamil": "ஆறுவது சினம்",
+      "transliteration": "Aaruvathu Sinam",
+      "meaning_en": "Anger is temporary",
+      "meaning_ta": "கோபம் தணியத் தகுவதாம்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385506/athisudi_single_file_tts/e38b0582-994e-446e-811e-d1797dacfb75.mp3"
+    },
+    {
+      "id": 3,
+      "tamil": "இயல்வது கரவேல்",
+      "transliteration": "Iyalvathu Karavel",
+      "meaning_en": "Aid to your capacity",
+      "meaning_ta": "கொடுக்க முடிந்த பொருளை இரப்பவர்க்கு ஒளியாமல் கொடு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385507/athisudi_single_file_tts/1fd65096-3485-4a3d-a38e-f193376a733c.mp3"
+    },
+    {
+      "id": 4,
+      "tamil": "ஈவது விலக்கேல்",
+      "transliteration": "eevathu vilakkel",
+      "meaning_en": "Never stop aiding",
+      "meaning_ta": "ஒருவர் மற்றொருவர்க்குக் கொடுப்பதைக் கொடுக்க வேண்டாமென்று நீ தடுக்காதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385508/athisudi_single_file_tts/6a6d3876-e5c7-4026-afbc-bdeb048a9b9b.mp3"
+    },
+    {
+      "id": 5,
+      "tamil": "உடையது விளம்பேல்",
+      "transliteration": "udaiyathu vilambel",
+      "meaning_en": "Never boast your possession",
+      "meaning_ta": "உன்னுடைய பொருளைப் பிறர் அறியும்படி சொல்லாதே உன்னுடைய பொருளை அல்லது கல்வி முதலிய சிறப்பை நீயே புகழ்ந்து பேசவேண்டா.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385510/athisudi_single_file_tts/f9e2bbc3-ee83-4dd2-9f4e-08f2f0aa215e.mp3"
+    },
+    {
+      "id": 6,
+      "tamil": "ஊக்கமது கைவிடேல்",
+      "transliteration": "ookkamathu kaividael",
+      "meaning_en": "Never give up enthusiasm",
+      "meaning_ta": "நீ எத்தொழில் செய்யும்பொழுதும் மனவலிமை யினைக் கைவிடாதே(அது: பகுதிப்பொருள் விகுதி.)",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385511/athisudi_single_file_tts/aa38cbf1-365a-4144-993a-a999a476b4f3.mp3"
+    },
+    {
+      "id": 7,
+      "tamil": "எண்ணெழுத் திகழேல்",
+      "transliteration": "Ennezhuth thigazhel",
+      "meaning_en": "Never degrade learning",
+      "meaning_ta": "கணிதத்தையும், இலக்கணத்தையும் இகழாமல் நன்றாகக் கற்றுக்கொள்(கணிதம் - கணக்கு.)",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385512/athisudi_single_file_tts/dbab5f53-22e6-4bf6-af97-d65a89556344.mp3"
+    },
+    {
+      "id": 8,
+      "tamil": "ஏற்ப திகழ்ச்சி",
+      "transliteration": "Yerpa Thikalchi",
+      "meaning_en": "Accepting alms is ashamed",
+      "meaning_ta": "இரந்துண்டு வாழ்வது பழிப்பாகையால் நீ ஒருவரிடத்தும் சென்று ஒன்றை வேண்டாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385513/athisudi_single_file_tts/a776b417-5a42-4244-8d05-efca3d0cb140.mp3"
+    },
+    {
+      "id": 9,
+      "tamil": "ஐய மிட்டுண்",
+      "transliteration": "aiya mittun",
+      "meaning_en": "Share with the needy before you eat",
+      "meaning_ta": "இரப்பவர்க்குப் பிச்சையிட்டுப் பின்பு நீ உண்ணு ஏழைகட்கும், குருடர் முடவர் முதலானவர்கட்கும் பிச்சையிட வேண்டும்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385514/athisudi_single_file_tts/6726ee6d-df3e-425c-9d34-2deb80e15b40.mp3"
+    },
+    {
+      "id": 10,
+      "tamil": "ஒப்புர வொழுகு",
+      "transliteration": "Oppura Vozhugu",
+      "meaning_en": "Act virtuous",
+      "meaning_ta": "உலகத்தோடு பொருந்த நடந்துகொள்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385516/athisudi_single_file_tts/9ab3fd7b-2703-4c14-9a6c-b60f5482670b.mp3"
+    },
+    {
+      "id": 11,
+      "tamil": "ஓதுவ தொழியேல்",
+      "transliteration": "othuva thozhiyel",
+      "meaning_en": "Never fail learning",
+      "meaning_ta": "அறிவு தரும் நல்ல நூல்களை நீ எப்பொழுதும் படித்துக்கொண்டிரு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385517/athisudi_single_file_tts/218aaa77-d9b1-468c-822a-44657a2f2ff5.mp3"
+    },
+    {
+      "id": 12,
+      "tamil": "ஒளவியம் பேசேல்",
+      "transliteration": "auviyam paesael",
+      "meaning_en": "Never gossip",
+      "meaning_ta": "நீ ஒருவரிடத்தும் பொறாமைகொண்டு பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385518/athisudi_single_file_tts/087ef4d8-0260-4419-bcc6-26f2c164f18e.mp3"
+    },
+    {
+      "id": 13,
+      "tamil": "அஃகஞ் சுருக்கேல்",
+      "transliteration": "Ahkan Surukkel",
+      "meaning_en": "Never compromise in food grains",
+      "meaning_ta": "மிகுந்த இலாபத்துக்கு ஆசைப்பட்டுத் தானியங்களைக் குறைத்து விற்காதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385519/athisudi_single_file_tts/bc6bd439-a104-4e1a-9a31-14d5ca47a59c.mp3"
+    },
+    {
+      "id": 14,
+      "tamil": "கண்டொன்று சொல்லேல்",
+      "transliteration": "kandonru sollel",
+      "meaning_en": "Don't exaggerate what you saw.",
+      "meaning_ta": "கண்ணாற் கண்டதற்கு மாறாகச் சொல்லாதே(பொய்ச்சாட்சி சொல்லலாகாது.)",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385520/athisudi_single_file_tts/993f61ee-a1a6-4656-8369-d0b538d5fa3b.mp3"
+    },
+    {
+      "id": 15,
+      "tamil": "ஙப்போல் வளை",
+      "transliteration": "ngappol valai",
+      "meaning_en": "Bend to befriend.",
+      "meaning_ta": "ஙஎன்னும் எழுத்தானது தான்பயனுடையதாயிருந்து பயனில்லாத ஙா முதலிய தன் வருக்க எழுத்துகளைத் தழுவிக் கொள்ளுதல் போல, நீ பயனுடையவனாயிருந்து உன் இனத்தார் பயனில்லாதவராயினும் அவரைத் தழுவிக்கொள ள் [ஙா முதலிய பதினொரெழுத்தும் எந்தச் சொல்லிலும் வருவதில்லை. ஙகரத்தின் பொருட்டே அவற்றையும் சுவடியில் எழுதுகிறார்கள். இனி இதற்கு ஙகர வொற்றானது அகரவுயிர் ஒன்றையே தழுவுவது போல நீ ஒருவனையே தழுவு என மாதர்க்க குக் கூறியதாகவும் பொருள் சொல்லலாம்.]",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385521/athisudi_single_file_tts/0934c2fe-59fc-46d0-98f7-c54cd253c084.mp3"
+    },
+    {
+      "id": 16,
+      "tamil": "சனிநீ ராடு",
+      "transliteration": "Sani Neeraadu",
+      "meaning_en": "Shower regularly.",
+      "meaning_ta": "சனிக்கிழமைதோறும் எண்ணெய் தேய்த்து முழுகு(புதன்கிழமைகளிலும் முழுகலாம்.)",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385523/athisudi_single_file_tts/a550dafe-6ef2-4a49-83f8-e8bd5ebc31aa.mp3"
+    },
+    {
+      "id": 17,
+      "tamil": "ஞயம்பட வுரை",
+      "transliteration": "Nyayampada urai",
+      "meaning_en": "Sweeten your speech.",
+      "meaning_ta": "கேட்பவர்களுக்கு இன்ப முண்டாகும்படி இனிமை யாகப் பேசு [நயம் என்பதன் போலி.]",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385524/athisudi_single_file_tts/1cf1e76d-c9df-4753-9f57-93df6a741378.mp3"
+    },
+    {
+      "id": 18,
+      "tamil": "இடம்பட வீடெடேல்",
+      "transliteration": "idampada veededaal",
+      "meaning_en": "Judiciously space your home.",
+      "meaning_ta": "அளவுக்குமேல் இடம் வீணாய்க் கிடககும்படி வீட்டைப்பெரிதாகக் கட்டாதே ''சிறுகக் கட்டிப் பெருக வாழ்'' என்பது பழமொழி.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385525/athisudi_single_file_tts/6e7b060f-cd73-43a7-92aa-ce50774e9556.mp3"
+    },
+    {
+      "id": 19,
+      "tamil": "இணக்கமறிந் திணங்கு",
+      "transliteration": "Inakkam arindhu inangu",
+      "meaning_en": "Befriend the best.",
+      "meaning_ta": "நற்குண நற்செய்கை உடையவ ரென்பது தெரிந்து கொண்டு ஒருவரோடு நட்புச் செய",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385526/athisudi_single_file_tts/b2176378-fcc8-48a7-bde0-a1b8cc6230bb.mp3"
+    },
+    {
+      "id": 20,
+      "tamil": "தந்தைதாய்ப் பேண்",
+      "transliteration": "Thanthai Thaai Pen",
+      "meaning_en": "Protect your parents.",
+      "meaning_ta": "உன் தாய் தந்தையரை அன்புடன் போற்றிக் காப்பாற்று",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385528/athisudi_single_file_tts/670a7f31-8bd9-456e-a46b-a0a7e74c1dc8.mp3"
+    },
+    {
+      "id": 21,
+      "tamil": "நன்றி மறவேல்",
+      "transliteration": "Nandri Maravel",
+      "meaning_en": "Don't forget gratitude.",
+      "meaning_ta": "உனக்குப் பிறர் செய்த நன்மையை எப் பொழுதும் மறக்காமல் தீமையை மறந்துவிடு உதவி செய்தவர்க்கு ஒருபொழுதும் தீமை செய்தலாகாது.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385529/athisudi_single_file_tts/c8808128-c0b4-4273-a1b6-7c5fe52fb363.mp3"
+    },
+    {
+      "id": 22,
+      "tamil": "பருவத்தே பயிர்செய்",
+      "transliteration": "Paruvaththae payirsey",
+      "meaning_en": "Husbandry has its season.",
+      "meaning_ta": "விளையும் பருவமறிந்து பயிரிடு எச்செயலும் அதற்குரிய காலத்திலே செய்யப்படவேண்டும்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385530/athisudi_single_file_tts/b9999108-ed42-4df1-abba-c3de5401e61f.mp3"
+    },
+    {
+      "id": 23,
+      "tamil": "மன்றுபறித் துண்ணேல்",
+      "transliteration": "manruparith thunneel",
+      "meaning_en": "Don't land-grab.",
+      "meaning_ta": "நீதிமன்றத்திலே இருந்துகொண்டு இலஞ்சம் வாங்கி வாழாதே 'மண்பறித் துண்ணேல்' என்று பாடமிருந்தால் பிறர் நிலத்தைக் கவர்ந்து வாழாதே என்று பொருளாம்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385531/athisudi_single_file_tts/769b5396-e376-46ad-9de9-03dc6ba6c62a.mp3"
+    },
+    {
+      "id": 24,
+      "tamil": "இயல்பலா தனசெயேல்",
+      "transliteration": "Iyalpalaa thana seiyel",
+      "meaning_en": "Desist demeaning deeds.",
+      "meaning_ta": "நல்லொழுக்கத்திற்கு மாறான செயல்களைச் செய்யாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385532/athisudi_single_file_tts/c8839d2d-ce8f-44c9-b947-91d2e8561ad7.mp3"
+    },
+    {
+      "id": 25,
+      "tamil": "அரவ மாட்டேல்",
+      "transliteration": "Arava maattael",
+      "meaning_en": "Don't play with snakes.",
+      "meaning_ta": "பாம்பைப் பிடித்து ஆட்டி விளையாடாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385534/athisudi_single_file_tts/5939e37a-e6a4-4355-9536-f3ace8d94821.mp3"
+    },
+    {
+      "id": 26,
+      "tamil": "இலவம்பஞ்சிற் றுயில்",
+      "transliteration": "Ilavampanjil thuyil",
+      "meaning_en": "Cotton bed better for comfort.",
+      "meaning_ta": "இலவம்பஞ்சினாற் செய்த மெத்தையிலே படுத்து உறங்கு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385535/athisudi_single_file_tts/62825119-0976-46c8-8be9-2464cae3861d.mp3"
+    },
+    {
+      "id": 27,
+      "tamil": "வஞ்சகம் பேசேல்",
+      "transliteration": "vanjagam paesael",
+      "meaning_en": "Don't wile.",
+      "meaning_ta": "கபடச் சொற்களைப் பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385537/athisudi_single_file_tts/6705088d-3c97-4427-8641-c5cab8035979.mp3"
+    },
+    {
+      "id": 28,
+      "tamil": "அழகலா தனசெயேல்",
+      "transliteration": "azhagala thaṉaseyai",
+      "meaning_en": "Detest the disorderly.",
+      "meaning_ta": "இழிவான செயல்களைச் செய்யாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385538/athisudi_single_file_tts/ca0b9a8e-58fd-4716-88ea-c22a851a940a.mp3"
+    },
+    {
+      "id": 29,
+      "tamil": "இளமையிற் கல்",
+      "transliteration": "Ilamaiyil kal",
+      "meaning_en": "Learn when young.",
+      "meaning_ta": "இளமைப் பருவத்திலேயே படிக்கத்தொடங்கிக் கல்வியைக் கற்றுக்கொள்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385539/athisudi_single_file_tts/cb3132db-e872-4f50-b264-8d2b014d5e07.mp3"
+    },
+    {
+      "id": 30,
+      "tamil": "அறனை மறவேல்",
+      "transliteration": "Aranai maravel",
+      "meaning_en": "Cherish charity.",
+      "meaning_ta": "தருமத்தை எப்பொழுதும் மறவாமல் செய்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385541/athisudi_single_file_tts/b1d8578d-6ba3-439e-b9a2-a04c2c8202e8.mp3"
+    },
+    {
+      "id": 31,
+      "tamil": "அனந்த லாடேல்",
+      "transliteration": "Anantha Laadael",
+      "meaning_en": "Over sleeping is obnoxious.",
+      "meaning_ta": "மிகுதியாகத் தூங்காதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385542/athisudi_single_file_tts/f04a3c43-1430-43c9-9690-30d2e2e78a56.mp3"
+    },
+    {
+      "id": 32,
+      "tamil": "கடிவது மற",
+      "transliteration": "Kadivadhu Mara",
+      "meaning_en": "Constant anger is corrosive.",
+      "meaning_ta": "யாரையும் கோபத்தாற் கடிந்து பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385543/athisudi_single_file_tts/f5219cc3-4ba1-4658-90f6-b7c12e000efd.mp3"
+    },
+    {
+      "id": 33,
+      "tamil": "காப்பது விரதம்",
+      "transliteration": "Kaappathu viratham",
+      "meaning_en": "Protecting is Fasting",
+      "meaning_ta": "பிற உயிர்களுக்குத் துன்பஞ் செய்யாமல் (அவற்றைக்) காப்பாற்றுவதே தவமாகும் தான் செய்யத் தொடங்கிய தருமத்தை விடாமற் செய்வதே விரதம் என்றும் பொருள் சொல்லலாம்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385544/athisudi_single_file_tts/33a0c84f-f24e-424a-a1a7-02b0480db98e.mp3"
+    },
+    {
+      "id": 34,
+      "tamil": "கிழமைப் படவாழ்",
+      "transliteration": "Kizhamai Padavaazh",
+      "meaning_en": "Live according to days.",
+      "meaning_ta": "உன் உடம்பாலும் பொருளாலும் பிறருக்கு நன்மை செய்து வாழு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385545/athisudi_single_file_tts/a3d6a927-2ef2-44f5-8c00-e8198cccd984.mp3"
+    },
+    {
+      "id": 35,
+      "tamil": "கீழ்மை யகற்று",
+      "transliteration": "keezhmai agatru",
+      "meaning_en": "Remove Poverty.",
+      "meaning_ta": "இழிவான குணஞ் செயல்களை நீக்கு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385546/athisudi_single_file_tts/e573b482-e433-4eda-a1a5-7511f25d9f78.mp3"
+    },
+    {
+      "id": 36,
+      "tamil": "குணமது கைவிடேல்",
+      "transliteration": "Gunamathu Kaividel",
+      "meaning_en": "Don't lose character.",
+      "meaning_ta": "நற்குணங்களைக் கைசோரவிடாதே நன்மை தருவ தென்று கண்டறிந்ததைக் கைவிடாதே. அது: பகுதிப்பொருள் விகுதி.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385548/athisudi_single_file_tts/34295b79-e7e3-4b2a-8a3e-c898e230ee1a.mp3"
+    },
+    {
+      "id": 37,
+      "tamil": "கூடிப் பிரியேல்",
+      "transliteration": "koodi piriyel",
+      "meaning_en": "Don't forsake friends.",
+      "meaning_ta": "நல்லவரோடு நட்புச் செய்து பின்பு அவரை விட்டுப் பிரியாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385549/athisudi_single_file_tts/31a03e7d-2bd9-45c4-a54c-796296808aa0.mp3"
+    },
+    {
+      "id": 38,
+      "tamil": "கெடுப்ப தொழி",
+      "transliteration": "Keduppa thozhi",
+      "meaning_en": "Abandon animosity.",
+      "meaning_ta": "பிறருக்குக் கெடுதி செய்வதை விட்டுவிடு (கேடு விளைக்கும் காரியத்தைச் செய்யாதே)",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385550/athisudi_single_file_tts/15e9210a-a997-457e-a834-52d2d0c59a96.mp3"
+    },
+    {
+      "id": 39,
+      "tamil": "கேள்வி முயல்",
+      "transliteration": "Kelvi muyal",
+      "meaning_en": "Learn by questioning.",
+      "meaning_ta": "கற்றறிந்தவர்கள் சொல்லும் நூற் பொருளைக்கேட்க முயற்சி செய்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385551/athisudi_single_file_tts/30835588-6f56-427a-95f9-1813e8541a66.mp3"
+    },
+    {
+      "id": 40,
+      "tamil": "கைவினை கரவேல்",
+      "transliteration": "Kaivinai Karavel",
+      "meaning_en": "Learn handicraft.",
+      "meaning_ta": "உனக்குத் தெரிந்த கைத்தொழிலை மற்றவர்களுக்கு ஒளியாமற் செய்(ஏதேனும் கைத்தொழில் செய்துகொண்டிரு.)",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385553/athisudi_single_file_tts/7eb49254-f2fd-4dfb-9f3a-765ae68ce8be.mp3"
+    },
+    {
+      "id": 41,
+      "tamil": "கொள்ளை விரும்பேல்",
+      "transliteration": "koḷḷai virumbēl",
+      "meaning_en": "Don't swindle.",
+      "meaning_ta": "பிறர் பொருளைக் கவர்ந்துகொள்ள விரும்பாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385554/athisudi_single_file_tts/b957823a-ce38-4c71-8647-5c6617cf6af1.mp3"
+    },
+    {
+      "id": 42,
+      "tamil": "கோதாட் டொழி",
+      "transliteration": "Koothaat Tozhi",
+      "meaning_en": "Ban all illegal games.",
+      "meaning_ta": "குற்றமான விளையாட்டை விட்டுவிடுகோதாட்டொழி என்பதன்பின் 'கௌவை யகற்று, என்று ஒரு கட்டுரை சில புத்தகங்களில் உள்ளது. 'துன்பத்தை நீக்கு' என்பது இதன் பொருள்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385555/athisudi_single_file_tts/c678c215-bd49-4408-86c3-ea9cc96eb4e9.mp3"
+    },
+    {
+      "id": 43,
+      "tamil": "கெளவை அகற்று",
+      "transliteration": "Kauvai Agatru",
+      "meaning_en": "Don't vilify.",
+      "meaning_ta": "",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385557/athisudi_single_file_tts/f2df70c9-46ff-4ddb-b014-c4df1032b317.mp3"
+    },
+    {
+      "id": 44,
+      "tamil": "சக்கர நெறிநில்",
+      "transliteration": "Chakkara Neri Nil",
+      "meaning_en": "Honor your Lands Constitution.",
+      "meaning_ta": "அரசன் கட்டளை வழியில் அடங்கி நட",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385558/athisudi_single_file_tts/cb0bca66-0718-4613-95c5-0965ebe92a6f.mp3"
+    },
+    {
+      "id": 45,
+      "tamil": "சான்றோ ரினத்திரு",
+      "transliteration": "Saandro Rinathiru",
+      "meaning_en": "Associate with the noble.",
+      "meaning_ta": "அறிவொழுக்கங்களில் நிறைந்த பெரியோர்களின் கூட்டத்தைச் சேர்ந்திரு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385559/athisudi_single_file_tts/8a5a59b4-40c5-46e6-82ac-2fa4181ee78a.mp3"
+    },
+    {
+      "id": 46,
+      "tamil": "சித்திரம் பேசேல்",
+      "transliteration": "Chiththiram paesael",
+      "meaning_en": "Stop being paradoxical.",
+      "meaning_ta": "பொய் வார்த்தைகளை மெய்போலப் பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385560/athisudi_single_file_tts/5e8e75c5-5b32-458e-9633-e2c78f980ec8.mp3"
+    },
+    {
+      "id": 47,
+      "tamil": "சீர்மை மறவேல்",
+      "transliteration": "Seermai Maravel",
+      "meaning_en": "Remember to be righteous.",
+      "meaning_ta": "புகழுக்குக் காரணமானவற்றை மறந்துவிடாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385562/athisudi_single_file_tts/24a762a1-0f1d-4388-9f0b-7b9c0e400115.mp3"
+    },
+    {
+      "id": 48,
+      "tamil": "சுளிக்கச் சொல்லேல்",
+      "transliteration": "Sulikka sollel",
+      "meaning_en": "Don't hurt others feelings.",
+      "meaning_ta": "கேட்பவர்க்குக் கோபமும் வெறுப்பும் உண்டாகும் படி பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385563/athisudi_single_file_tts/1cd33e9b-ddb2-4034-829d-7af1e9b77b6c.mp3"
+    },
+    {
+      "id": 49,
+      "tamil": "சூது விரும்பேல்",
+      "transliteration": "Soodhu virumbel",
+      "meaning_en": "Don't gamble.",
+      "meaning_ta": "ஒருபொழுதும் சூதாடுதலை விரும்பாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385564/athisudi_single_file_tts/38536020-789d-4552-9c03-ebfea0812da1.mp3"
+    },
+    {
+      "id": 50,
+      "tamil": "செய்வன திருந்தச்செய்",
+      "transliteration": "Seyvana thirunthachchey",
+      "meaning_en": "Action with perfection.",
+      "meaning_ta": "செய்யுஞ் செயல்களைத், திருத்தமாகச் செய்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385565/athisudi_single_file_tts/edb9ec1a-6413-4f00-9e08-f23323106363.mp3"
+    },
+    {
+      "id": 51,
+      "tamil": "சேரிடமறிந்து சேர்",
+      "transliteration": "Seridam arindhu ser",
+      "meaning_en": "Seek out good friends.",
+      "meaning_ta": "சேரத்தக்க நல்லிடத்தை ஆராய்ந்தறிந்து சேர்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385566/athisudi_single_file_tts/732017cc-ed3e-4f9b-8e5d-609d6f1673fb.mp3"
+    },
+    {
+      "id": 52,
+      "tamil": "சையெனத் திரியேல்",
+      "transliteration": "Saiyenath thiriyel",
+      "meaning_en": "Avoid being insulted.",
+      "meaning_ta": "பெரியோர் சீ என்று வெறுக்கும்படி வீணாய்த் திரியாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385567/athisudi_single_file_tts/23869b35-9141-419d-a1b2-573456acf908.mp3"
+    },
+    {
+      "id": 53,
+      "tamil": "சொற்சோர்வு படேல்",
+      "transliteration": "Sorsorvu Patel",
+      "meaning_en": "Don't show fatigue in conversation.",
+      "meaning_ta": "நீ பிறருடன் பேசும்பொழுதும் மறந்து குற்றமுண்டாகப் பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385569/athisudi_single_file_tts/78e1f59a-41d3-4f39-a791-ed37360f95d8.mp3"
+    },
+    {
+      "id": 54,
+      "tamil": "சோம்பித் திரியேல்",
+      "transliteration": "Sombi thiriyael",
+      "meaning_en": "Don't be a lazybones.",
+      "meaning_ta": "முயற்சியின்றிச் சோம்பேறியாகத் திரியாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385570/athisudi_single_file_tts/edc80336-51b0-4333-904e-8fec2ffca3d7.mp3"
+    },
+    {
+      "id": 55,
+      "tamil": "தக்கோ னெனத்திரி",
+      "transliteration": "Thakkon enaththiri",
+      "meaning_en": "Be trustworthy.",
+      "meaning_ta": "பெரியோர்கள் உன்னைத் தக்கவன் என்று புகழும்படி நடந்துகொள்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385571/athisudi_single_file_tts/c947141c-6206-42dd-b262-723685bafe5a.mp3"
+    },
+    {
+      "id": 56,
+      "tamil": "தானமது விரும்பு",
+      "transliteration": "thaanamathu virumbu",
+      "meaning_en": "Be kind to the unfortunate.",
+      "meaning_ta": "தக்கவர்களுக்குத் தானங்கொடுத்தலை விரும்புஅது: பகுதிப்பொருள் விகுதி",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385572/athisudi_single_file_tts/ede78b7f-7c83-4847-9a8d-d6c8074d427d.mp3"
+    },
+    {
+      "id": 57,
+      "tamil": "திருமாலுக் கடிமை செய்",
+      "transliteration": "Thirumaalukku adimai sei",
+      "meaning_en": "Serve the protector.",
+      "meaning_ta": "நாராயணமூர்த்திக்குத் தொண்டு செய்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385574/athisudi_single_file_tts/7968dac7-6571-4c4a-9319-bb1fe511f9f1.mp3"
+    },
+    {
+      "id": 58,
+      "tamil": "தீவினை யகற்று",
+      "transliteration": "Theevinai Agatru",
+      "meaning_en": "Don't sin.",
+      "meaning_ta": "பாவச் செயல்களைச் செய்யாமல் விலக்கு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385575/athisudi_single_file_tts/ff7a75b4-46c6-48ae-8a00-e1a9a968f3f2.mp3"
+    },
+    {
+      "id": 59,
+      "tamil": "துன்பத்திற் கிடங்கொடேல்",
+      "transliteration": "Thunbaththil idangodael",
+      "meaning_en": "Don't attract suffering.",
+      "meaning_ta": "துன்பத்திற்குச் சிறிதும் இடங்கொடாதேமுயற்சி செய்யும்பொழுது வரும் உடம்பின் வருத்தத்திற்கு அஞ்சி அதனை விட்டுவிடலாகாது",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385576/athisudi_single_file_tts/904ef25b-f804-4f81-ab8c-3fb687aa60c3.mp3"
+    },
+    {
+      "id": 60,
+      "tamil": "தூக்கி வினைசெய்",
+      "transliteration": "Thookki Vinaisey",
+      "meaning_en": "Deliberate every action.",
+      "meaning_ta": "முடிக்கத் தகுந்த உபாயத்தை ஆராய்ந்தறிந்து ஒரு காரியத்தைச் செய்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385577/athisudi_single_file_tts/843a82fc-05b3-481d-9580-58afe7983d4c.mp3"
+    },
+    {
+      "id": 61,
+      "tamil": "தெய்வ மிகழேல்",
+      "transliteration": "Deiva migazhel",
+      "meaning_en": "Don't defame the divine.",
+      "meaning_ta": "கடவுளை இகழ்ந்து பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385579/athisudi_single_file_tts/9e006bcb-1c26-4bef-916b-07c14b0afdb9.mp3"
+    },
+    {
+      "id": 62,
+      "tamil": "தேசத்தோ டொத்துவாழ்",
+      "transliteration": "Desaththodu oththu vaazh",
+      "meaning_en": "Live in unison with your countrymen.",
+      "meaning_ta": "நீ வசிக்கும் தேசத்தவருடன் பகையில்லாமலபொருந்தி வாழு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385580/athisudi_single_file_tts/ec6d9dc4-4972-4324-b878-444e3e78c6ed.mp3"
+    },
+    {
+      "id": 63,
+      "tamil": "தையல்சொல் கேளேல்",
+      "transliteration": "thaiyal sol kel.",
+      "meaning_en": "Don't listen to the designing.",
+      "meaning_ta": "மனைவி சொல் கேட்டு ஆராயாமல் நடவாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385581/athisudi_single_file_tts/7ab9b440-2bbb-4948-9458-b1fe87e93360.mp3"
+    },
+    {
+      "id": 64,
+      "tamil": "தொன்மை மறவேல்",
+      "transliteration": "Thonmai Maravel",
+      "meaning_en": "Don't forget your past glory.",
+      "meaning_ta": "பழைமையாகிய நட்பினை மறந்துவிடாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385583/athisudi_single_file_tts/f5907285-d056-4bf4-9043-4b34abdd32bd.mp3"
+    },
+    {
+      "id": 65,
+      "tamil": "தோற்பன தொடரேல்",
+      "transliteration": "thorpana thodareel",
+      "meaning_en": "Don't compete if sure of defeat.",
+      "meaning_ta": "தோல்வியடையக்கூடிய காரியங்களில் தலையிடாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385584/athisudi_single_file_tts/62e0e7d1-9b15-45d1-9e2f-d6dc34be5957.mp3"
+    },
+    {
+      "id": 66,
+      "tamil": "நன்மை கடைப்பிடி்",
+      "transliteration": "Nanmai kadaipidii",
+      "meaning_en": "Adhere to the beneficial.",
+      "meaning_ta": "நல்வினை செய்தலை உறுதியாகப் பற்றிக்கொள்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385585/athisudi_single_file_tts/de5ee454-5d6f-4d8d-a17c-be69ec1a93bf.mp3"
+    },
+    {
+      "id": 67,
+      "tamil": "நாடொப் பனசெய்",
+      "transliteration": "Naadoppanasei",
+      "meaning_en": "Do nationally agreeable.",
+      "meaning_ta": "நாட்டிலுள்ளோர் ஒப்புக்கொள்ளக்கூடிய நல்ல செயல்களைச் செய்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385586/athisudi_single_file_tts/319696cf-aea3-4cdf-8a1e-21ce6ae47a0d.mp3"
+    },
+    {
+      "id": 68,
+      "tamil": "நிலையிற் பிரியேல்",
+      "transliteration": "nilaiyil piriyel",
+      "meaning_en": "Don't depart from good standing.",
+      "meaning_ta": "உன்னுடைய நல்ல நிலையினின்றும் தாழ்ந்துவிடாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385587/athisudi_single_file_tts/bc0a09e8-d3e5-443f-b235-ef8fb1862b6e.mp3"
+    },
+    {
+      "id": 69,
+      "tamil": "நீர்விளை யாடேல்",
+      "transliteration": "Neer vilaiyaadael",
+      "meaning_en": "Don't jump into a watery grave.",
+      "meaning_ta": "வெள்ளத்திலே நீந்தி விளையாடாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385588/athisudi_single_file_tts/0a9d4188-d912-4052-a127-267ef403168d.mp3"
+    },
+    {
+      "id": 70,
+      "tamil": "நுண்மை நுகரேல்",
+      "transliteration": "nunmai nukarael",
+      "meaning_en": "Don't over snack.",
+      "meaning_ta": "நோயைத் தரும் சிற்றுண்டிகளை உண்ணாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385589/athisudi_single_file_tts/b6778165-8182-4e14-95cf-090a836c00ab.mp3"
+    },
+    {
+      "id": 71,
+      "tamil": "நூல்பல கல்",
+      "transliteration": "noolpala kal",
+      "meaning_en": "Read lot of books.",
+      "meaning_ta": "அறிவை வளர்க்கும் பல நூல்களையும் கற்றுக்கொள்",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385591/athisudi_single_file_tts/56c4e22e-d8b5-4748-9060-bc3e2c73f496.mp3"
+    },
+    {
+      "id": 72,
+      "tamil": "நெற்பயிர் விளை",
+      "transliteration": "Nerpayir vilai",
+      "meaning_en": "Do agriculture.",
+      "meaning_ta": "நெற்பயிரை முயற்சியெடுத்து விளையச்செய்உழுதுண்டு வாழ்வதே மேல்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385592/athisudi_single_file_tts/5a97d5ec-9665-47d9-b700-6122dcc8e931.mp3"
+    },
+    {
+      "id": 73,
+      "tamil": "நேர்பட வொழுகு",
+      "transliteration": "Nerpada ozhugu",
+      "meaning_en": "Exhibit good manners always.",
+      "meaning_ta": "ஒழுக்கந் தவறாமல் செவ்வையான வழியில் நட",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385593/athisudi_single_file_tts/c5c53eb0-35d4-49d9-b451-31bd948c2837.mp3"
+    },
+    {
+      "id": 74,
+      "tamil": "நைவினை நணுகேல்",
+      "transliteration": "naivinai nanukeel",
+      "meaning_en": "Don't involve in destruction.",
+      "meaning_ta": "பிறர் வருந்தத்தகுந்த தீவினைகளைச்செய்யாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385596/athisudi_single_file_tts/0dd0f486-7579-4104-bae0-bf768e1823b3.mp3"
+    },
+    {
+      "id": 75,
+      "tamil": "நொய்ய வurையேல்",
+      "transliteration": "Noyya vuraiyeel",
+      "meaning_en": "Don't dabble in sleaze.",
+      "meaning_ta": "வீணான அற்ப வார்த்தைகளைப் பேசாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385598/athisudi_single_file_tts/68a0055a-fcda-474c-8284-3fa7d0619602.mp3"
+    },
+    {
+      "id": 76,
+      "tamil": "நோய்க்கிடங் கொடேல்",
+      "transliteration": "Noykkidang kodael",
+      "meaning_en": "Avoid unhealthy lifestyle.",
+      "meaning_ta": "உணவு, உறக்கம் முதலியவற்றால் பிணிக்கு இடங்கொடுக்காதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385599/athisudi_single_file_tts/91102627-d2e2-42a9-9d53-3293436fc8ca.mp3"
+    },
+    {
+      "id": 77,
+      "tamil": "பழிப்பன பகரேல்",
+      "transliteration": "pazhippana pagarael",
+      "meaning_en": "Speak no vulgarity.",
+      "meaning_ta": "பெரியோர்களாற் பழிக்கப்படுஞ் சொற்களைப் பேசாதே பழிக்கப்படும் சொற்களாவன: பொய், குறளை, கடுஞ்சொல், பயனில் சொல் என்பனவும்; இடக்கர்ச் சொற்களுமாம்.",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385600/athisudi_single_file_tts/fe588e2f-1ec7-4673-b4f3-0c8961728e15.mp3"
+    },
+    {
+      "id": 78,
+      "tamil": "பாம்பொடு பழகேல்",
+      "transliteration": "paambodu pazhagel",
+      "meaning_en": "Keep away from the vicious.",
+      "meaning_ta": "பாம்புபோலும் கொடியவர்களுடன் பழக்கஞ் செய்யாதே",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385601/athisudi_single_file_tts/a154c4ae-ebbe-4129-86f8-dc87c65e964f.mp3"
+    },
+    {
+      "id": 79,
+      "tamil": "பிழைபடச் சொல்லேல்",
+      "transliteration": "pizhaipada chchollel",
+      "meaning_en": "Watch out for self incrimination.",
+      "meaning_ta": "குற்ற முண்டாகும்படி பேசாதே",
+      "audio_tts": "https://res.com/dtbj7k2vr/video/upload/v1752385603/athisudi_single_file_tts/f4786f3d-52e7-4559-80d4-4811cbbc61e6.mp3"
+    },
+    {
+      "id": 80,
+      "tamil": "பீடு பெறநில்",
+      "transliteration": "peedu pera nill",
+      "meaning_en": "Follow path of honor.",
+      "meaning_ta": "பெருமை யடையும்படியாக நல்ல வழியிலே நில்லு",
+      "audio_tts": "https://res.cloudinary.com/dtbj7k2vr/video/upload/v1752385604/athisudi_single_file_tts/acce9fef-b211-44d0-8f61-3c8c6b96c6c8.mp3"
+    },
+    {
+      "id": 81,
+      "tamil": "புகழ்ந்தாரைப் போற்றிவாழ்",
+      "transliteration": "Pugazhnthaaraip potri vaazh",
+      "meaning_en": "Protect your benefactors."
+    }
+  ]
+}
