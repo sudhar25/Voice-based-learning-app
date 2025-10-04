@@ -1,210 +1,98 @@
-# main.py
-import os
-import json
-import tempfile
-import shutil
-from typing import Optional
+import os, json, tempfile, shutil, re
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+import speech_recognition as sr
+import Levenshtein
 
-# Levenshtein for efficient distance calculation
-try:
-    import Levenshtein
-    LEV_AVAILABLE = True
-except ImportError:
-    LEV_AVAILABLE = False
+app = FastAPI(title="Athichudi Pronunciation Checker", version="1.0")
 
-# Try optional ASR modules
-try:
-    import whisper
-    WHISPER_AVAILABLE = True
-except Exception:
-    WHISPER_AVAILABLE = False
-
-try:
-    import speech_recognition as sr
-    SR_AVAILABLE = True
-except Exception:
-    SR_AVAILABLE = False
-
-# Dataset location (default Render path)
-DATA_PATH = os.environ.get("ATHISUDI_DATA_PATH", "/mnt/data/athisudi_dataset.json")
-
-app = FastAPI(title="Pronunciation Checker API (Levenshtein Optimized)")
-
-# Allow frontend (React) to call backend
+# Allow all origins for testing; restrict later in production
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Load dataset once
-if not os.path.exists(DATA_PATH):
-    raise FileNotFoundError(f"Dataset not found at {DATA_PATH}")
-
+# --- Load dataset ---
+DATA_PATH = "athisudi_dataset.json"
 with open(DATA_PATH, "r", encoding="utf-8") as f:
     data = json.load(f)
-
 PHRASES = {item["id"]: item for item in data.get("athisudi", [])}
-DEFAULT_THRESHOLD = 0.6
 
-
-# ----------------- Helper Functions ----------------- #
-def normalize_text(text: str) -> str:
-    if not text:
-        return ""
-    import re
+# --- Helpers ---
+def normalize(text: str) -> str:
     text = text.lower()
-    text = re.sub(r"[^\w\s]", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return re.sub(r"[^\w\s]", "", text).strip()
 
-
-def similarity_score(a: str, b: str) -> float:
-    """Compute normalized similarity using Levenshtein distance."""
-    a, b = normalize_text(a), normalize_text(b)
+def similarity(a: str, b: str) -> float:
+    a, b = normalize(a), normalize(b)
     if not a or not b:
         return 0.0
-    if LEV_AVAILABLE:
-        distance = Levenshtein.distance(a, b)
-    else:
-        # fallback simple edit distance
-        distance = sum(1 for x, y in zip(a, b) if x != y) + abs(len(a) - len(b))
-    max_len = max(len(a), len(b))
-    score = 1 - (distance / max_len)
-    return round(max(score, 0.0), 4)
+    dist = Levenshtein.distance(a, b)
+    return round(1 - (dist / max(len(a), len(b))), 4)
 
-
-async def transcribe_with_whisper(file_path: str) -> str:
-    model = whisper.load_model("small")
-    result = model.transcribe(file_path, language=None)
-    return result.get("text", "").strip()
-
-
-def transcribe_with_google(file_path: str, language="ta-IN") -> str:
-    if not SR_AVAILABLE:
-        raise RuntimeError("speech_recognition not installed.")
-    r = sr.Recognizer()
-    with sr.AudioFile(file_path) as source:
-        audio = r.record(source)
-    try:
-        return r.recognize_google(audio, language=language).strip()
-    except Exception:
-        return ""
-
-
-# ----------------- API Models ----------------- #
-class CheckResult(BaseModel):
-    success: bool
+# --- Model ---
+class Result(BaseModel):
     phrase_id: int
-    expected_tamil: Optional[str]
-    expected_transliteration: Optional[str]
-    meaning_en: Optional[str]
-    audio_tts: Optional[str]
-    transcribed_text: Optional[str]
+    transcribed: str
     score: float
-    threshold: float
     verdict: str
-    details: dict
+    expected_tamil: str
+    expected_transliteration: str
+    meaning_en: str
+    audio_tts: str
 
-
-# ----------------- API Endpoints ----------------- #
+# --- API Endpoints ---
 @app.get("/phrases")
-def list_phrases():
-    return {"count": len(PHRASES), "phrases": list(PHRASES.values())}
+def get_phrases():
+    return list(PHRASES.values())
 
-
-@app.get("/phrases/{phrase_id}")
-def get_phrase(phrase_id: int):
-    phrase = PHRASES.get(phrase_id)
-    if not phrase:
-        raise HTTPException(status_code=404, detail="Phrase not found")
-    return phrase
-
-
-@app.post("/check_pronunciation", response_model=CheckResult)
+@app.post("/check_pronunciation", response_model=Result)
 async def check_pronunciation(
     phrase_id: int = Form(...),
-    threshold: float = Form(DEFAULT_THRESHOLD),
-    asr_engine: Optional[str] = Form("auto"),
-    audio_file: UploadFile = File(...)
+    audio_file: UploadFile = File(...),
+    threshold: float = Form(0.6)
 ):
     if phrase_id not in PHRASES:
         raise HTTPException(status_code=404, detail="Invalid phrase_id")
-
     phrase = PHRASES[phrase_id]
+
+    # Save audio temp
     tmpdir = tempfile.mkdtemp()
+    tmp_path = os.path.join(tmpdir, "user.wav")
+    with open(tmp_path, "wb") as f:
+        shutil.copyfileobj(audio_file.file, f)
+
+    # Transcribe Tamil audio
+    recognizer = sr.Recognizer()
+    with sr.AudioFile(tmp_path) as source:
+        audio = recognizer.record(source)
     try:
-        ext = os.path.splitext(audio_file.filename)[1] or ".wav"
-        tmp_path = os.path.join(tmpdir, f"upload{ext}")
-        with open(tmp_path, "wb") as f:
-            shutil.copyfileobj(audio_file.file, f)
+        text = recognizer.recognize_google(audio, language="ta-IN")
+    except Exception:
+        text = ""
 
-        # Choose ASR engine
-        transcribed = ""
-        used_engine = None
-        if asr_engine == "whisper" and WHISPER_AVAILABLE:
-            used_engine = "whisper"
-            transcribed = await transcribe_with_whisper(tmp_path)
-        elif asr_engine == "google":
-            used_engine = "google"
-            transcribed = transcribe_with_google(tmp_path)
-        else:
-            if WHISPER_AVAILABLE:
-                used_engine = "whisper"
-                transcribed = await transcribe_with_whisper(tmp_path)
-            elif SR_AVAILABLE:
-                used_engine = "google"
-                transcribed = transcribe_with_google(tmp_path)
+    shutil.rmtree(tmpdir, ignore_errors=True)
 
-        if not transcribed:
-            return CheckResult(
-                success=False,
-                phrase_id=phrase_id,
-                expected_tamil=phrase["tamil"],
-                expected_transliteration=phrase["transliteration"],
-                meaning_en=phrase["meaning_en"],
-                audio_tts=phrase["audio_tts"],
-                transcribed_text="",
-                score=0.0,
-                threshold=threshold,
-                verdict="try_again",
-                details={"note": "ASR returned empty", "asr_engine": used_engine}
-            )
+    # Compare pronunciation
+    s_tamil = similarity(text, phrase["tamil"])
+    s_translit = similarity(text, phrase["transliteration"])
+    score = max(s_tamil, s_translit)
+    verdict = "correct" if score >= threshold else "try_again"
 
-        # Calculate similarity
-        s1 = similarity_score(transcribed, phrase["tamil"])
-        s2 = similarity_score(transcribed, phrase["transliteration"])
-        score = max(s1, s2)
-        verdict = "correct" if score >= threshold else "try_again"
-
-        return CheckResult(
-            success=True,
-            phrase_id=phrase_id,
-            expected_tamil=phrase["tamil"],
-            expected_transliteration=phrase["transliteration"],
-            meaning_en=phrase["meaning_en"],
-            audio_tts=phrase["audio_tts"],
-            transcribed_text=transcribed,
-            score=score,
-            threshold=threshold,
-            verdict=verdict,
-            details={"asr_engine": used_engine, "s_tamil": s1, "s_translit": s2}
-        )
-
-    finally:
-        shutil.rmtree(tmpdir, ignore_errors=True)
-
+    return Result(
+        phrase_id=phrase_id,
+        transcribed=text,
+        score=score,
+        verdict=verdict,
+        expected_tamil=phrase["tamil"],
+        expected_transliteration=phrase["transliteration"],
+        meaning_en=phrase["meaning_en"],
+        audio_tts=phrase["audio_tts"]
+    )
 
 @app.get("/health")
-def health_check():
-    return {
-        "status": "ok",
-        "whisper_available": WHISPER_AVAILABLE,
-        "speech_recognition_available": SR_AVAILABLE,
-        "levenshtein_available": LEV_AVAILABLE
-    }
+def health():
+    return {"status": "ok"}
