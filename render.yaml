@@ -7,6 +7,6 @@ services:
   repo: https://github.com/sudhar25/Voice-based-learning-app
   plan: free
   region: singapore
-  buildCommand: apt-get update && apt-get install -y ffmpeg && pip install -r requirements.txt
+  buildCommand: pip install -r requirements.txt
   startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
   autoDeployTrigger: commit
