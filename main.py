@@ -49,49 +49,39 @@ class Result(BaseModel):
 def get_phrases():
     return list(PHRASES.values())
 
-@app.post("/check_pronunciation", response_model=Result)
-async def check_pronunciation(
-    phrase_id: int = Form(...),
-    audio_file: UploadFile = File(...),
-    threshold: float = Form(0.6)
-):
-    if phrase_id not in PHRASES:
-        raise HTTPException(status_code=404, detail="Invalid phrase_id")
-    phrase = PHRASES[phrase_id]
+from fastapi import UploadFile, Form
+import speech_recognition as sr
+from pydub import AudioSegment
+import tempfile
+import os
 
-    # Save audio temp
-    tmpdir = tempfile.mkdtemp()
-    tmp_path = os.path.join(tmpdir, "user.wav")
-    with open(tmp_path, "wb") as f:
-        shutil.copyfileobj(audio_file.file, f)
-
-    # Transcribe Tamil audio
-    recognizer = sr.Recognizer()
-    with sr.AudioFile(tmp_path) as source:
-        audio = recognizer.record(source)
+@app.post("/check_pronunciation")
+async def check_pronunciation(audio_file: UploadFile, phrase_id: int = Form(...)):
     try:
-        text = recognizer.recognize_google(audio, language="ta-IN")
-    except Exception:
-        text = ""
+        # Save uploaded file temporarily
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".webm") as tmp:
+            tmp.write(await audio_file.read())
+            tmp_path = tmp.name
 
-    shutil.rmtree(tmpdir, ignore_errors=True)
+        # Convert .webm → .wav using pydub
+        wav_path = tmp_path.replace(".webm", ".wav")
+        AudioSegment.from_file(tmp_path).export(wav_path, format="wav")
 
-    # Compare pronunciation
-    s_tamil = similarity(text, phrase["tamil"])
-    s_translit = similarity(text, phrase["transliteration"])
-    score = max(s_tamil, s_translit)
-    verdict = "correct" if score >= threshold else "try_again"
+        # Now process with speech_recognition
+        recognizer = sr.Recognizer()
+        with sr.AudioFile(wav_path) as source:
+            audio_data = recognizer.record(source)
+            text = recognizer.recognize_google(audio_data)
 
-    return Result(
-        phrase_id=phrase_id,
-        transcribed=text,
-        score=score,
-        verdict=verdict,
-        expected_tamil=phrase["tamil"],
-        expected_transliteration=phrase["transliteration"],
-        meaning_en=phrase["meaning_en"],
-        audio_tts=phrase["audio_tts"]
-    )
+        # Cleanup temp files
+        os.remove(tmp_path)
+        os.remove(wav_path)
+
+        # Return recognized text (or compare with your phrase)
+        return {"transcribed_text": text, "verdict": "processed"}
+
+    except Exception as e:
+        return {"error": str(e)}
 
 @app.get("/health")
 def health():
